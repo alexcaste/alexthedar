@@ -7746,11 +7746,19 @@ footer.cv-footer p a {
   }
 }
 
-.spec-project-left {
+.spec-left {
   padding-right:10px;
   border-right: 1px solid #ccc;
 }
 
-.spec-project-right {
+.spec-right {
   padding-left: 20px;
+}
+
+@media (max-width: 1000px) {
+  .spec-left, .spec-right {
+    padding: 0;
+    border-right: none;
+
+  }
 }

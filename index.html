@@ -29,16 +29,16 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
 
   <!-- Navigation -->
   <nav class="navbar-xs navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
        <div class="centered-pills">
-        <ul class="nav nav-pills">
+        <ul id="top-menu" class="nav nav-pills">
 
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li>
+          <!-- page top -->
+          <li class="active">
             <a class="page-scroll" href="#page-top">
               <div id="mobile-menu-icons">
                 <span class="glyphicon glyphicon-arrow-up"></span>
@@ -84,15 +84,6 @@
                   <span class="fa fa-graduation-cap"></span>
                 </div>
                 <div id="reg-navbar-menu">Education</div>
-              </a>
-          </li>
-
-          <!-- PDF download -->
-          <li>
-              <a class="page-scroll" href="#print">
-                <div id="mobile-menu-icons">
-                </div>
-                <div id="reg-navbar-menu">PDF</div>
               </a>
           </li>
         </ul>
@@ -170,7 +161,7 @@
                 <article class="media">
 
                   <div class="pull-left">
-                    <span class="fa fa-phone"></span>
+                    <span class="fa fa-phone bg-primary text-primary"></span>
                   </div>
                   <div class="media-body">+1 310-895-0240</div>
 
@@ -318,9 +309,9 @@
         </div>
 
         <section class="cv-section">
-          
+          <div class="row">
           <!-- column left -->
-        <div class="col-md-6 spec-project-left">
+        <div class="col-md-6 spec-left">
 
           <article class="wow" data-wow-delay=".5s">
 
@@ -365,7 +356,7 @@
         </div><!-- column left -->
 
           <!-- column right -->
-        <div class="col-md-6 row spec-project-right">
+        <div class="col-md-6 row spec-right">
 
           <article class="wow" data-wow-delay=".6s">
 
@@ -407,48 +398,135 @@
 
           </article>
         </div><!-- column right -->
-
+      </div>
       </section>
-
-
     </section><!-- Projects  -->
-
     <hr>
 
       <!-- Education  -->
       <section id="education" class="education-section">
-        <div class="container">
-          <div class="row">
+        <div class="row">
+          <h3 class="text-uppercase">// Education</h3>
+          <section class="cv-section">
 
-            <!-- column left -->
-            <div class="col-md-7">
+          <!-- column left -->
+          <div class="col-md-4 spec-left">
+            <article class="wow" data-wow-delay=".3s">
 
-            </div><!-- column left -->
+              <h4>Web Development</h4>
+              <p>
+                <small class="text-primary"><strong>Epicodus </strong>2015</small>
+              </p>
+            </article>
 
-            <!-- column right -->
-            <div class="col-md-5">
+          </div><!-- column left -->
 
-            </div><!-- column right -->
-          </div>
+          <!-- column middle -->
+          <div class="col-md-4 spec-left">
+            <article class="wow" data-wow-delay=".3s">
+
+              <h4>MFA in Film, Theater & Digital Media</h4>
+              <p>
+                <small class="text-primary"><strong>UCLA </strong>2007</small>
+              </p>
+
+            </article>
+          </div><!-- column left -->
+
+          <!-- column right -->
+          <div class="col-md-4 spec-right">
+            <article class="wow" data-wow-delay=".3s">
+
+              <h4>BFA in Theater Arts</h4>
+              <p>
+                <small class="text-primary"><strong>UCLA </strong>1996</small>
+              </p>
+
+            </article>
+          </div><!-- column right -->
+        </section>
         </div>
       </section><!-- Education  -->
+      <hr>
+
+      <!-- Hobbies  -->
+        <div class="row">
+          <h3 class="text-uppercase">// Hobbies</h3>
+          <section class="cv-section">
+
+          <!-- column left -->
+          <div class="col-md-4">
+
+            <article class="wow media" data-wow-delay=".6s">
+              <div class="pull-left">
+                <span class="fa fa-headphones bg-primary text-primary"></span>
+              </div>
+              <div class="media-body">DJing/Producing Music</div>
+            </article>
+
+            <article class="wow media" data-wow-delay=".6s">
+              <div class="pull-left">
+                <span class="fa fa-film bg-primary text-primary"></span>
+              </div>
+              <div class="media-body">Film Making</div>
+            </article>
+
+          </div><!-- column left -->
+
+          <!-- column middle -->
+          <div class="col-md-4 ">
+
+            <article class="wow media" data-wow-delay=".6s">
+              <div class="pull-left">
+                <span class="fa fa-shield bg-primary text-primary"></span>
+              </div>
+              <div class="media-body">Film Making</div>
+            </article>
+
+            <article class="wow media" data-wow-delay=".6s">
+              <div class="pull-left">
+                <span class="fa fa-motorcycle bg-primary text-primary"></span>
+              </div>
+              <div class="media-body">Motorcycle</div>
+            </article>
+
+          </div><!-- column left -->
+
+          <!-- column right -->
+          <div class="col-md-4 ">
+
+            <article class="wow media" data-wow-delay=".6s">
+              <div class="pull-left">
+                <span class="fa fa-pencil bg-primary text-primary"></span>
+              </div>
+              <div class="media-body">Novel Writing</div>
+            </article>
+
+            <article class="wow media" data-wow-delay=".6s">
+              <div class="pull-left">
+                <span class="fa fa-code bg-primary text-primary"></span>
+              </div>
+              <div class="media-body">Coding</div>
+            </article>
+
+          </div><!-- column right -->
+        </section>
+        </div>
+      <hr>
+
 
       <!-- PDF  -->
       <section id="print" class="print-section">
-        <div class="container">
           <div class="row">
 
-            <!-- column left -->
-            <div class="col-md-7">
+            <!-- button download PDF -->
+            <div class="text-center">
+              <a href="http://resume.linkedinlabs.com/ezesojoy9" title="Donwload Resume PDF" class="btn btn-primary-outline btn-lg">
+                <i class="fa fa-download"></i>&nbsp; Download PDF
+              </a>
+            </div><!--/ button download PDF -->
 
-            </div><!-- column left -->
-
-            <!-- column right -->
-            <div class="col-md-5">
-
-            </div><!-- column right -->
           </div>
-        </div>
       </section><!-- PDF  -->
 
       <hr>
