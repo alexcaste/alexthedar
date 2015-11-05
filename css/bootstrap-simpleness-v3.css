@@ -4738,7 +4738,7 @@ tbody.collapse.in {
   margin-left: 2px;
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  color: #35baeb;
+  color: #000000;
 }
 
 /*!
@@ -4753,6 +4753,9 @@ tbody.collapse.in {
   text-align: center;
   margin-top: 10px;
 }
+.centered-pills > li.active {
+  color: #000000;
+}
 .centered-pills .nav > li > a {
   color: #fff;
 }
@@ -4762,6 +4765,7 @@ tbody.collapse.in {
 .centered-pills .nav > li > a:focus {
   color: #000000;
 }
+
 .centered-pills .nav-pills {
   display: inline-block;
 }
